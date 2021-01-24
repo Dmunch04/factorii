@@ -1,0 +1,29 @@
+{
+	"name": "factorii",
+	"description": "factory game for desktop inspired by factorio and shapez.io built with d",
+	"license": "MIT",
+	"copyright": "Copyright © 2020, Munchii",
+	"authors": [
+		"Munchii"
+	],
+
+	"dependencies": {
+		"dagon": "~>0.11.0",
+		"dlib": "~>0.20.0",
+		"open-simplex-2": "~>1.0.1"
+	},
+
+	"importPaths": [
+		"source"
+	],
+
+	"sourcePaths": ["source"],
+	"mainSourceFile": "source/app.d",
+
+	"configurations": [
+		{
+			"name": "application",
+			"targetType": "executable"
+		}
+	]
+}

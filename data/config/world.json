@@ -1,0 +1,13 @@
+{
+    "regions": [
+        {
+            "name": "Rocks",
+            "priority": 0,
+            "tile": "data/assets/tiles/rock.png",
+            "chance": {
+                "min": 0.8,
+                "max": 0.9
+            }
+        }
+    ]
+}
