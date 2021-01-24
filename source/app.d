@@ -3,11 +3,11 @@ import factorii : Factorii;
 
 void main(string[] args)
 {
-	debug enableMemoryProfiler(true);
+    debug enableMemoryProfiler(true);
 
-	Factorii app = New!Factorii(args);
-	app.run();
-	Delete(app);
+    Factorii app = New!Factorii(args);
+    app.run();
+    Delete(app);
 
-	debug printMemoryLeaks();
+    debug printMemoryLeaks();
 }
